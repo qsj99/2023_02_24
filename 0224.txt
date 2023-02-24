@@ -1,0 +1,30 @@
+02-24-금 
+
+https://skitter-slider.net/
+
+
+<html>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ <scrpit>
+   $(document).ready(function(){
+    코드시작 
+});
+
+ <script>
+</html>
+
+447페이지
+ $('p')
+ $('#display')
+
+$('#id접근'){ }
+$('.class접근'){ }
+ 스타일 p{ }
+ 자바스크립트 document.getElementById('display').innerHTML = 값;
+
+ <p id=display>
+
+ <ul id='gnb'> <ul> <li> </li> </ul> </div>

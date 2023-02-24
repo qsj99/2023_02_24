@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery.html</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+  <style> li{font-size: 16pt; margin: 5px; }</style>
+
+  <script>
+  $(document).ready( function() {
+   $(".list1 > li[class='list_1']").css('border','2px solid red');
+   $(".list1 > li[class!='list_1']").css('border','2px solid orange');
+
+   $(".list2 > li[class~='list']").css("background", "yellow");
+   $(".list2 > li[class*='list']").css("border", "2px solid green");
+
+
+  } );
+  </script>
+</head>
+<body>
+  <h3>06jQuery448.html</h3>
+  <ul class="list1">
+    <li class="list_1">내용_1</li>
+    <li class="list_2">내용_2</li>
+    <li class="list_3">내용_3</li>
+  </ul>
+
+  <ul class="list2">
+    <li class="list_bg">내용2_1</li>
+    <li class="list_2">내용2_2</li>
+    <li class="list_3">내용2_3</li>
+  </ul>
+
+  <ul class="list3">
+    <li class="list">내용_1</li>
+    <li class="list_1">내용3_2</li>
+    <li class="list_bg">내용3_3</li>
+  </ul>
+  <ul class="list4">
+    <li class="list_1">내용4_1</li>
+    <li class="list">내용4_2</li>
+    <li class="list bg">내용4_3</li>
+  </ul>
+
+ 
+</body>
+</html>
